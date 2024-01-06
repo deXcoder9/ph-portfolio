@@ -12,8 +12,8 @@
   --secondary-color: #474747;
 }
 
-.tittle {
-  font-size: 35px;
+.title {
+  font-size: 30px;
   font-weight: 7000;
   color: #181818;
 }
@@ -118,4 +118,27 @@ margin-bottom: 30px;
     background-image: url(assets/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+
+/*?   ABOUT - ME   */
+.about-me{
+    width: 80%;
+    margin: 130px auto;
+    text-align: center;
+    background-color: #FFF8F3 ;
+}
+
+.about{
+    margin: 30px auto;
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+.space{
+    padding: 130px 150px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    font-size: 13px;
 }
